@@ -1,0 +1,88 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    margin-left: 5%;
+    border-spacing: 8px;
+}
+.div1{
+    position: absolute;
+    left: 17%;
+    top: 70%;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.div2{
+    position: absolute;
+    left: 17%;
+    top: 80%;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.div3{
+    position: absolute;
+    left: 17%;
+    top: 93%;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.div4{
+    position: absolute;
+    left: 17%;
+    top: 102%;
+    font-weight: bolder;
+    font-size: 20px;
+}
+table thead tr th img{
+    width: 10px;
+    height: 10px;
+}
+
+table thead tr th {
+    height: 20px;
+    width: 20px;
+    border: none; 
+   
+    
+}
+
+.row{
+    text-align: center;
+  
+
+}
+
+.elementdiv{
+    border: 1px solid grey;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f587;
+   font-weight: 600;
+  
+}
+
+.colorpeach {
+    background-color: #ff9999;
+}
+
+.colorblue{
+    background-color: #97c9fc;
+}
+
+.colorgreen{
+    background-color: #9bff99;
+}
+
+thead tr th:nth-child(1){
+    font-size: 10px;
+}
