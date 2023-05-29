@@ -1,0 +1,384 @@
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    
+        
+    }
+    html, body{
+        height: 100%;
+        width: 100%;
+    overflow-x: hidden;
+    background-color: #ffffff;
+        
+    }
+    :root{
+        --black:#0f0f10;
+        --grey:#181a1b;
+        --button:#2a427f;
+        --font:#9c9fa2;
+        --blue: #2a427f;
+    
+        --ffp: 'Poppins', sans-serif;
+        --ffr: 'Roboto', sans-serif;
+    }
+
+
+    header{
+        padding: 10px 20px;
+        
+        
+    }
+    .menu-bar{
+        display: block;
+    }
+    .top-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 150px;
+        
+    }
+   
+    .search-area{
+        width: 5%;
+        height: 45px;
+       
+        border: none;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+       
+        
+    }
+    .search-area .search-icon{
+        margin-left: 15px;
+    }
+    .search-area .input-search{
+        display: none;
+        
+    }
+    
+    
+    .button-area {
+       display: none;
+      }
+      
+      .primary-btn {
+       display: none;
+      }
+      
+      .transparent-btn {
+       display: none;
+      }
+    
+      /* ------------second line of header=------- */
+    
+    .desktop-navbar .main-menu{
+       display: none;
+       
+    
+    }
+
+
+
+    /* -------------icon section------ */
+.section2{
+    display: flex;
+    padding: 20px 80px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fbfeff;
+    text-align: center;
+    color: var(--blue);
+    height: auto;
+    
+}
+
+.card-section{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.card{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+}
+
+.primary-heading{
+    font-size: 30px;
+    
+}
+
+
+/* ------------achiver section------- */
+
+.achiver{
+    height: 400px;
+    background-color: #eef0f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+.alogo4 , .alogo5{
+    display: none;
+}
+
+
+
+/* -----------------------Hall of Fame section------------ */
+
+
+.hof-cards-container{
+    
+    gap: 40px;
+}
+.hof-cards{
+    height: 380px;
+    width: 300px;
+    
+}
+.hof-cards2 {
+    display: none;
+}
+
+
+
+.angle-right{
+
+   left: 750px;
+   bottom: 210px;
+   
+    
+   
+
+}
+.angle-left{
+
+    top: 210px;
+    left: 30px;
+  
+}
+
+
+
+
+
+/* <!-- Live program section --> */
+
+.live-program{
+
+    height: 700px;
+    background-color: #fbfeff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 100px;
+    
+   
+
+}
+
+
+.course-container{
+    
+    gap: 40px;
+    margin-top: 50px;
+
+
+
+}
+.courses{
+    height: 450px;
+    width: 350px;
+   
+}
+.course3{
+    display: none;
+}
+
+
+
+
+.hackathon-image{
+    margin-top: 60px;
+   width: 60%;
+   padding: 0;
+
+    
+    
+}
+
+.our-product-container2{
+    display: block;
+    display: flex;
+    padding: 20px 80px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fbfeff;
+    text-align: center;
+    color: var(--blue);
+    height: 900px;
+    margin-top: 180px;
+
+}
+
+
+
+.our-product-container{
+    display: none;
+    
+}
+.our-product{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto;
+   
+    
+    
+}
+.products5{
+    position: relative;
+    left: 60%;
+}
+
+
+.products{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 15px;
+   height: 330px;
+   width: 290px;
+   justify-content: center;
+  
+}
+.secondary-container{
+    padding: 30px;
+}
+
+
+
+.our-product .achiver {
+    background-color: #fbfeff;
+    height: 500px;
+    
+    
+    margin-top: 150px;
+
+}
+.partner-logo-area{
+
+   
+    display: grid;
+   grid-template-rows: auto auto;
+   grid-template-columns: auto auto auto auto;
+  
+  
+    gap: 20px;
+   
+}
+
+
+/* -------footer section----- */
+
+footer{
+    background-color: #233c7b;
+    width: 100%;
+
+
+
+    padding: 40px 80px;
+
+}
+
+.footer-container{
+   
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+   
+   
+}
+.footer-devider{
+    margin-top: 20px;
+    width: 650px;
+    height: 3px;
+    background-color: #f0b375;
+    border: none;
+}
+.social-area{
+    color: white;
+    font-size: 22px;
+}
+.social-area .fa-linkedin{
+    color: white;
+}
+.footer-column{
+    width: 90%;
+}
+
+.address{
+    display: flex;
+    gap: 30px;
+    color: white;
+    margin-top: 40px;
+    align-items: center;
+    font-size: 25px;
+}
+.email{
+    display: flex;
+    gap: 30px;
+    color: #eef0f5;
+    margin-top: 40px;
+    align-items: center;
+    font-size: 25px;
+}
+
+.iso{
+    width: 80px;
+    margin-top: 40px;
+}
+.iso-no{
+    list-style: none;
+    color: white;
+
+}
+.footer-colum2-child{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    
+    
+}
+.footer-title{
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+}
+.footer-c2-col1 ul{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+}
+
+
+
+    
+   
+}
+
