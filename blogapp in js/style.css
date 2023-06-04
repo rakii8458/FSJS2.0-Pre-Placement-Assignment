@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background: rgb(233,174,238);
+background: linear-gradient(90deg, rgba(233,174,238,1) 0%, rgba(219,177,196,1) 21%, rgba(198,178,212,1) 32%, rgba(180,191,217,1) 56%, rgba(233,148,225,1) 100%);
+
+position: fixed;
+
+scroll-behavior: smooth;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main h1{
+    color: #f6070793;
+    font-size: 30px;
+   
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    padding: 0em 2em 1em 2em;
+   
+    
+}
+header ul{
+    display: flex;
+    gap: 50px;
+
+}
+header ul li {
+    list-style: none;
+}
+
+header i{
+    font-size: 15px;
+    color:#f6070793;
+    
+   
+}
+
+header ul li a{
+   text-decoration: none;
+   all: unset;
+    cursor: pointer;
+    color: #f6070793;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+header ul li a::after{
+
+    content: "";
+    display: block;
+    transition: all 0.3s ease-in-out;
+    border-bottom:2px solid rgba(118, 5, 5, 0.788) ;
+    transform: scaleX(0);
+    padding-bottom: 0.3em;
+   
+    
+
+}
+
+header ul li a:hover{
+    color: rgba(118, 5, 5, 0.788)
+}
+
+header ul li a:hover::after{
+
+   transform: scaleX(1);
+}
+
+.blog-area{
+    display: flex;
+    justify-content: space-between;
+   
+   
+    padding: 0px 60px;
+}
+.article-blog::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.article-blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    height: 600px;
+    width: 70%;
+    padding: 50px;
+    
+    overflow-y: scroll;
+    
+   
+    
+    
+    /* background-color: rgb(7, 61, 108);
+    */
+}
+.blog-card {
+    background: rgb(247, 37, 133);
+    background: linear-gradient(
+      339deg,
+      rgba(247, 37, 133, 0.5495448179271709) 1%,
+      rgba(114, 9, 183, 0.5411414565826331) 69%
+    );
+    padding: 30px 25px 80px 25px;
+    margin: 0 0 20px 0;
+    height: 300px;
+    width: 40%;
+   
+    box-shadow: rgba(114, 9, 183, 0.2638305322128851) 0px 13px 27px -5px,
+      rgba(247, 37, 133, 0.3226540616246498) 0px 8px 16px -8px;
+    border-radius: 11px;
+    position: relative;
+  }
+
+
+
+
+.delete{
+    position: absolute;
+    left: 60%;
+   bottom: 30px;
+    padding: 5px 15px;
+    background: rgb(190,52,164);
+    background: linear-gradient(90deg, rgba(190,52,164,1) 0%, rgba(161,30,94,1) 50%, rgba(164,44,44,1) 100%);
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+.blog-title{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.blog-text{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    
+}
+.post-no{
+    background: rgb(190,52,164);
+    background: linear-gradient(90deg, rgba(190,52,164,1) 0%, rgba(161,30,94,1) 50%, rgba(164,44,44,1) 100%);
+   
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   position: absolute;
+   bottom: 30px;
+
+}
+
+.aside-form{
+    background: rgb(190,52,164);
+background: linear-gradient(90deg, rgba(190,52,164,1) 0%, rgba(161,30,94,1) 50%, rgba(164,44,44,1) 100%);
+   width: 25%;
+   height: 400px;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border-radius: 25px;
+   position: fixed;
+   left: 70%;
+   bottom: 30px;
+   color: white;
+  
+}
+.aside-form h2{
+    font-size: 30px;
+}
+
+.aside-form form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.social-area{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.submit{
+   
+   
+    padding: 5px 15px;
+    background: rgb(190,52,164);
+    background: linear-gradient(90deg, rgba(190,52,164,1) 0%, rgb(147, 127, 137) 50%, rgb(253, 248, 248) 100%);
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+form #title, #blog{
+   height: 30px;
+   padding: 5px;
+   width: 200px;
+}
