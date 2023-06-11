@@ -1,0 +1,77 @@
+
+.main-div{
+     
+        position: relative;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        top: 90px;
+
+      
+   
+}
+.input-div{
+    height: 200px;
+    width: 50%;
+    border: 1px solid white;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 70px;
+  
+    
+}
+.input-div input{
+    height: 25px;
+    width: 160px;
+    padding: 5px;
+}
+
+.btn-add{
+    width: 150px;
+    height: 40px;
+    
+    border: 2px solid rgb(82, 6, 6);
+    background-color: darkgrey;
+    color: rgb(235, 9, 9);
+}
+.showing-todo{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.mydiv{
+   
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.my-info{
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+  width: 650px;
+  text-align: center;
+  margin-left: 10px;
+  align-items: center;
+  border-radius: 10px;
+  
+    
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(242, 226, 226);
+    background-color: rgb(216, 115, 115);
+    color: rgb(235, 9, 9);
+
+}
+
+.my-info div button{
+    background-color: rgb(224, 183, 171);
+    border-radius: 10px;
+
+}
