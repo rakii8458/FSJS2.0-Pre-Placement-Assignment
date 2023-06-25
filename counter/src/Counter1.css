@@ -1,0 +1,36 @@
+.counter{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    height: 100vh;
+    padding: 50px;
+    color: rgb(45, 99, 99);
+}
+.counter-show{
+    width: 100px;
+    height: 100px;
+   
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(45, 99, 99);
+}
+.btndiv{
+    display: flex;
+    gap: 10px;
+}
+.btn{
+    border: none;
+    outline: none;
+    background-color: rgb(45, 99, 99);
+    padding: 10px;
+    width: 140px;
+    color: white;
+    border-radius: 5px;
+}
